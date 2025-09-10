@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shravi Shukla - Portfolio</title>
+  <meta name="description" content="Shravi Shukla - AI & CSE Student Portfolio">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a2d9d6d66d.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-navy text-white font-sans">
+  <!-- Header -->
+  <header class="bg-transparent">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="flex space-x-6">
+        <a href="index.html" class="nav-link text-green-400">01. Home</a>
+        <a href="projects.html" class="nav-link">02. Projects</a>
+        <a href="contact.html" class="nav-link">03. Contact</a>
+      </div>
+      <a href="asset/shr_resume2025.pdf" target="_blank"
+        class="border border-green-400 text-green-400 px-4 py-2 rounded hover:bg-gray-800 transition">
+        My Resume
+        </a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main class="container mx-auto px-6 py-16 text-center">
+    <p class="text-green-400">Hi, my name is</p>
+    <h1 class="text-4xl sm:text-5xl font-bold my-4">Shravi Shukla</h1>
+    <p class="text-gray-300 max-w-2xl mx-auto">
+      I’m a B.Tech CSE (AI) student passionate about Artificial Intelligence, problem-solving, and creative technology.
+    </p>
+    <div class="mt-6">
+      <a href="projects.html"
+         class="btn-primary">View Projects</a>
+      <a href="contact.html"
+         class="btn-secondary">Contact Me</a>
+    </div>
+  </main>
+
+  <!-- About -->
+  <section class="container mx-auto px-6 py-12">
+    <h2 class="heading"><span class="text-green-400">01.</span> About Me</h2>
+    <div class="grid md:grid-cols-3 gap-8 items-start mt-8">
+      <article class="md:col-span-2 space-y-4">
+        <p>
+          Hello 👋 I’m Shravi, currently pursuing <strong>B.Tech in Computer Science Engineering (AI)</strong> in Bhopal, India.
+          I love exploring AI, digital prototyping, and building creative solutions.
+        </p>
+        <h3 class="text-green-400 font-semibold">Top Skills</h3>
+        <ol class="skills-list">
+          <li>Python, C, C++, SQL</li>
+          <li>Web Development (HTML, CSS, JavaScript)</li>
+          <li>Machine Learning & AI Concepts</li>
+          <li>Data Structures & Algorithms</li>
+          <li>Creative Design (Figma, Canva)</li>
+        </ol>
+        <h3 class="text-green-400 font-semibold mt-6">Tools I Use</h3>
+        <ul class="tools-list">
+          <li>VS Code</li>
+          <li>Git & GitHub</li>
+          <li>Pandas, NumPy, Scikit-learn</li>
+          <li>Figma & Canva</li>
+        </ul>
+      </article>
+        <aside class="text-center">
+        <img src="asset/me_img.png" alt="Shravi Shukla" class="profile-img mx-auto">
+        <h4 class="mt-4 text-green-400">Background Music</h4>
+        <audio controls>
+        <source src="asset/background-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+        </aside>
+    </div>
+  </section>
+
+  <!-- Video -->
+  <section class="container mx-auto px-6 py-12 text-center">
+    <h2 class="heading"><span class="text-green-400">02.</span> Project Demo</h2>
+    <video controls>
+    <source src="asset/project-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-400 text-sm">
+    © 2025 Shravi Shukla
+  </footer>
+</body>
+</html>
