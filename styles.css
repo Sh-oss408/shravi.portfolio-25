@@ -11,7 +11,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/* Reusable styles */
 .nav-link {
   color: #ccd6f6;
   transition: 0.3s;
@@ -53,7 +52,6 @@ body {
   margin-top: 4px;
 }
 
-/* Profile image */
 .profile-img {
   border: 2px solid var(--green);
   border-radius: 1rem;
@@ -62,7 +60,6 @@ body {
 }
 .profile-img:hover { transform: scale(1.05); }
 
-/* Lists */
 .skills-list, .tools-list { margin-left: 1rem; }
 .skills-list li::before {
   content: counter(item) ". ";
@@ -74,13 +71,11 @@ body {
   color: var(--green);
 }
 
-/* Table */
 table { background: var(--light-navy); border-radius: 6px; }
 th { background: #1f2937; color: var(--green); }
 td, th { padding: 0.5rem; }
 tr:hover { background: rgba(52,211,153,0.1); }
 
-/* Form */
 .form-input {
   width: 100%;
   padding: 0.5rem;
@@ -95,7 +90,6 @@ tr:hover { background: rgba(52,211,153,0.1); }
   box-shadow: 0 0 4px var(--green);
 }
 
-/* Project cards */
 .project-card {
   transition: 0.3s;
 }
@@ -103,3 +97,4 @@ tr:hover { background: rgba(52,211,153,0.1); }
   transform: translateY(-4px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
+
