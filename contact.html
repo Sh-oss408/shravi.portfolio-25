@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Shravi Shukla</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a2d9d6d66d.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-navy text-white">
+  <header>
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="flex space-x-6">
+        <a href="index.html" class="nav-link">01. Home</a>
+        <a href="projects.html" class="nav-link">02. Projects</a>
+        <a href="contact.html" class="nav-link text-green-400">03. Contact</a>
+      </div>
+      <a href="asset/shr_resume2025.pdf" target="_blank"
+   class="border border-green-400 text-green-400 px-4 py-2 rounded hover:bg-gray-800 transition">
+  My Resume
+</a>
+
+    </nav>
+  </header>
+  <main class="container mx-auto px-6 py-12">
+    <h1 class="text-3xl font-bold mb-6">Get In Touch</h1>
+    <p class="text-gray-300 mb-8">I’m always open to collaborations, AI discussions, or just a friendly chat!</p>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <form class="space-y-4" method="POST" action="#">
+        <div>
+          <label for="name" class="block mb-1">Full Name *</label>
+          <input type="text" id="name" name="name" required class="form-input" placeholder="Your Name">
+        </div>
+        <div>
+          <label for="email" class="block mb-1">Email *</label>
+          <input type="email" id="email" name="email" required class="form-input" placeholder="your@email.com">
+        </div>
+        <div>
+          <label for="subject" class="block mb-1">Subject</label>
+          <input type="text" id="subject" name="subject" class="form-input" placeholder="Collaboration, Query...">
+        </div>
+        <div>
+          <label for="message" class="block mb-1">Message *</label>
+          <textarea id="message" name="message" required minlength="10" maxlength="500" rows="5"
+            class="form-input resize-none" placeholder="Write your message here..."></textarea>
+        </div>
+        <div class="flex space-x-4">
+          <button type="submit" class="btn-primary"><i class="fas fa-paper-plane mr-2"></i>Send</button>
+          <button type="reset" class="btn-secondary"><i class="fas fa-undo mr-2"></i>Reset</button>
+        </div>
+      </form>
+      <div class="space-y-6">
+        <h2 class="text-xl font-semibold text-green-400">My Contact</h2>
+        <p><i class="fas fa-envelope text-green-400 mr-2"></i> 
+          <a href="mailto:shravishukla123@gmail.com" class="underline">shravishukla123@gmail.com</a>
+        </p>
+        <p><i class="fab fa-github text-green-400 mr-2"></i> 
+          <a href="https://github.com/Sh-oss408" target="_blank" class="underline">github.com/Sh-oss408</a>
+        </p>
+        <p><i class="fab fa-linkedin text-green-400 mr-2"></i> 
+          <a href="https://linkedin.com/in/shravi-shukla-215665359" target="_blank" class="underline">linkedin.com/in/shravi-shukla-215665359</a>
+        </p>
+        <p><i class="fas fa-phone text-green-400 mr-2"></i> +91 9479543587</p>
+        <p><i class="fas fa-map-marker-alt text-green-400 mr-2"></i> Bhopal, Madhya Pradesh, India</p>
+      </div>
+    </div>
+  </main>
+  <footer class="py-6 text-center text-gray-400 text-sm">
+    © 2025 Shravi Shukla
+  </footer>
+</body>
+</html>
