@@ -3,22 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects - Shravi Shukla</title>
+  <title>Projects | Shravi Shukla</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="bg-navy text-white">
-  <header>
-    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
-      <div class="flex space-x-6">
-        <a href="index.html" class="nav-link">01. Home</a>
-        <a href="projects.html" class="nav-link text-green-400">02. Projects</a>
-        <a href="contact.html" class="nav-link">03. Contact</a>
-      </div>
-      <a href="shr_resume2025.pdf" target="_blank"
+
+<header>
+  <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+    <div class="flex space-x-6">
+      <a href="index.html" class="nav-link">01. Home</a>
+      <a href="projects.html" class="nav-link text-green-400">02. Projects</a>
+      <a href="contact.html" class="nav-link">03. Contact</a>
+    </div>
+    <a href="shr_resume2025.pdf" target="_blank"
       class="border border-green-400 text-green-400 px-4 py-2 rounded hover:bg-gray-800 transition">
       My Resume
-</a>
+    </a>
+  </nav>
+</header>
+
+<main class="container mx-auto px-6 py-12">
+  <h1 class="text-3xl font-bold mb-8">My Projects</h1>
+
+  <!-- FEATURED -->
+  <h2 class="heading"><span class="text-green-400">01.</span> Featured Project</h2>
+
+  <div class="bg-light-navy p-6 rounded mt-6">
+    <h3 class="text-xl font-semibold mb-2">
+      Allergen Substitute Suggestion System (LLM-Based)
+    </h3>
+    <p class="text-gray-300 mb-2">
+      Developed a basic LLM-assisted system that suggests safe food substitutes
+      for people with dietary allergies.
+    </p>
+    <ul class="list-disc list-inside text-gray-400">
+      <li>Problem-focused AI solution for health & nutrition</li>
+      <li>Text-based user input with intelligent suggestions</li>
+      <li>College academic project</li>
+    </ul>
+    <p class="mt-3 text-green-400">
+      Tech Stack: Python, Machine Learning, Basic LLM Concepts
+    </p>
+  </div>
+
+  <!-- OTHER PROJECTS -->
+  <h2 class="heading mt-12"><span class="text-green-400">02.</span> Other Projects</h2>
+
+  <div class="grid md:grid-cols-3 gap-6 mt-6">
+    <div class="project-card p-6 bg-light-navy rounded">
+      <h3 class="font-semibold text-lg mb-2">SmorphiBlocky Bot</h3>
+      <p>Shape-shifting robot navigation using logic and loops.</p>
+      <p class="text-green-400 mt-2">Python, Logic</p>
+    </div>
+
+    <div class="project-card p-6 bg-light-navy rounded">
+      <h3 class="font-semibold text-lg mb-2">Psychological Journal</h3>
+      <p>AI-driven journaling system using personality traits.</p>
+      <p class="text-green-400 mt-2">Python, AI</p>
+    </div>
+
+    <div class="project-card p-6 bg-light-navy rounded">
+      <h3 class="font-semibold text-lg mb-2">Water Purification Model</h3>
+      <p>Nature-inspired prototype avoiding conventional filtration.</p>
+      <p class="text-green-400 mt-2">Design, Sustainability</p>
+    </div>
+  </div>
+</main>
+
+<footer class="py-6 text-center text-gray-400 text-sm">
+  © 2025 Shravi Shukla
+</footer>
+
+</body>
+</html>
+
 
     </nav>
   </header>
@@ -87,5 +147,6 @@
   </footer>
 </body>
 </html>
+
 
 
