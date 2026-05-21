@@ -201,8 +201,9 @@ body{
 
 .projects-grid{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:1fr 1fr;
     gap:28px;
+    align-items:stretch;
 }
 
 .project-card{
@@ -385,6 +386,8 @@ body{
     gap:12px;
     margin-top:28px;
     justify-content:center;
+    align-items:center;
+    width:100%;
 }
 
 .hero-tags span{
