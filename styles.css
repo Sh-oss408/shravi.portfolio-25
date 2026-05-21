@@ -201,7 +201,7 @@ body{
 
 .projects-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns:repeat(2,1fr);
     gap:28px;
 }
 
@@ -238,6 +238,16 @@ body{
     border-radius:14px;
     margin-bottom:20px;
     transition:0.4s ease;
+}
+
+.skills-list{
+    margin-top:12px;
+    padding-left:20px;
+    line-height:2;
+}
+
+.skills-list li::marker{
+    color:var(--green);
 }
 
 .project-card:hover .project-image{
@@ -348,6 +358,10 @@ body{
         font-size:2.3rem;
     }
 
+    .projects-grid{
+    grid-template-columns:1fr;
+}
+
     .project-image,
     .project-video{
         height:200px;
@@ -370,6 +384,7 @@ body{
     flex-wrap:wrap;
     gap:12px;
     margin-top:28px;
+    justify-content:center;
 }
 
 .hero-tags span{
